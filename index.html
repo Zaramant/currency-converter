@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="header">
+                <h1>Конвертер валют</h1>
+            </div>
+            <ul class="currencies"></ul>
+            <div class="valute">
+                <div class="value">
+                    <p><img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg" width="30" 
+                        height="20" alt="">EUR: <span class="eur"></span></p>
+                    <p><span class="eur-in-rub">0 Руб</span></p>
+                    <p><input class="input" id="eur-input" type="text" placeholder="0"></p>
+                </div>
+                <div class="value">
+                    <p><img class="flag" src="http://www.geonames.org/flags/l/us.gif" width="30" 
+                        height="20" alt="">USD: <span class="usd"></span></p>
+                    <p><span class="usd-in-rub">0 Руб</span></p>
+                    <p><input class="input" id="usd-input" type="text" placeholder="0"></p>
+                </div>
+                <div class="value">
+                    <p><img class="flag" src="http://www.geonames.org/flags/l/ua.gif" width="30" 
+                        height="20" alt="">UAH: <span class="uah"></span></p>
+                        <p><span class="uah-in-rub">0 Руб</span></p>
+                        <p><input class="input" id="uah-input" type="text" placeholder="0"></p>
+                </div>
+                <div class="value">
+                    <p><img class="flag" src="http://www.geonames.org/flags/l/jp.gif" width="30" 
+                        height="20" alt="">JPY: <span class="jpy"></span></p>
+                        <p><span class="jpy-in-rub">0 Руб</span></p>
+                        <p><input class="input" id="jpy-input" type="text" placeholder="0"></p>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
